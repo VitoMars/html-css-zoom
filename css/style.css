@@ -15,6 +15,23 @@ body {
   width: 100vw;
 }
 
+.options {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+}
+
+.spekerView,
+.full {
+  margin: 8px 5px;
+  padding: 8px;
+  background-color: #3a3a3a;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .arrow {
   position: absolute;
   bottom: 50%;
