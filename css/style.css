@@ -49,6 +49,11 @@ body {
   padding: 3px;
 }
 
+.speak {
+  border: 3px solid #97d53e;
+}
+
+/* Barra inferiore */
 .bar {
   display: flex;
   height: 8vh;
