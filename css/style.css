@@ -26,12 +26,27 @@ body {
   margin: 0 auto;
 }
 
+.row i {
+  color: red;
+}
+
 .item {
+  position: relative;
   margin: 3px;
   height: calc((82vh / 5) - 6px);
   width: calc((100vw / 5) - 6px);
   background: url(../img/vitomeme.png);
   background-size: cover;
+  background-position: bottom;
+}
+
+.name {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 3px;
 }
 
 .bar {
@@ -92,4 +107,5 @@ body {
   align-items: center;
   padding: 0px 20px;
   font-size: 20px;
+  cursor: pointer;
 }
