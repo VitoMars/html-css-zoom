@@ -6,6 +6,7 @@
 
 body {
   background-color: black;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -39,7 +40,7 @@ body {
   width: 100vw;
   background-color: #202223;
   color: white;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .btn-left,
@@ -63,6 +64,7 @@ body {
   font-size: 30px;
   padding-bottom: 5px;
   justify-content: center;
+  align-items: center;
 }
 
 .btn span {
@@ -80,4 +82,14 @@ body {
 
 .green i {
   color: #4bc800;
+}
+
+.end {
+  display: flex;
+  color: #fd564c;
+  background-color: #4a4b4d;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  font-size: 20px;
 }
