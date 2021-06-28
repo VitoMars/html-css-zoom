@@ -34,7 +34,46 @@ body {
 }
 
 .bar {
+  display: flex;
   height: 8vh;
   width: 100vw;
   background-color: #202223;
+  color: white;
+  justify-content: space-around;
+}
+
+.btn-left,
+.btn-center,
+.btn-right {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btn i {
+  display: flex;
+  font-size: 30px;
+  padding-bottom: 5px;
+  justify-content: center;
+}
+
+.btn span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.angle-up {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 0px 10px;
 }
