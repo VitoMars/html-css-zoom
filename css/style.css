@@ -118,6 +118,7 @@ body {
 .btn-center,
 .btn-right {
   display: flex;
+  /* flex-wrap: wrap; */
 }
 
 .btn {
